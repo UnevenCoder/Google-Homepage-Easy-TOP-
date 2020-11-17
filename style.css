@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 100vw;
+  position: fixed;
+  margin-bottom: auto;
+}
+header > nav > ul {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header > nav > ul > li {
+  list-style: none;
+  padding-right: 15px;
+  font-size: small;
+}
+
+#circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+section#main {
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#searchD {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#sr {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-left: 2px solid grey;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  width: 30px;
+}
+#search {
+  border-left: none;
+  border-right: none;
+  height: 32px;
+  width: 400px;
+}
+#search:active {
+  border-left: none;
+  border-right: none;
+}
+#mic {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  width: 30px;
+  height: 32px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+#buttons button {
+  background: #f8f9fa;
+  border: none;
+  color: #3c4043;
+  height: 30px;
+  font-size: 14px;
+}
+
+footer {
+  width: 100vw;
+  margin-top: auto;
+  font-size: 14;
+  background: #f2f2f2;
+  margin-bottom: 0px;
+}
+
+footer > section {
+  border-top: 1px solid #dadce0;
+  height: 50px;
+}
+
+footer > section > nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+footer > section > nav > ul {
+  display: flex;
+  width: 100%;
+  padding-left: 25px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+footer > section > p {
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 25px;
+}
+footer > section > nav > ul > li {
+  list-style: none;
+  padding-right: 15px;
+  font-size: small;
+}
+#leftul {
+  width: 400px;
+}
+#leftul li {
+  padding-right: 27px;
+}
